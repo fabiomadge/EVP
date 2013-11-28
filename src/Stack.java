@@ -21,4 +21,8 @@ class Stack{
 		l = l.tail();
 		return fst;
 	}
+
+	public int size(){
+		return l.length();
+	}
 }

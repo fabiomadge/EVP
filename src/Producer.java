@@ -17,7 +17,6 @@ class Producer implements Runnable{
 				catch(InterruptedException e){}
 			}
 			s.add(new Int(elems));
-			System.out.println(elems + " produced");
 		}
 	}
 }

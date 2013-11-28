@@ -16,7 +16,6 @@ class Consumer implements Runnable{
 				}
 				catch(InterruptedException e){}
 			}
-			System.out.println(elems + " consumed");
 		}
 	}
 }
